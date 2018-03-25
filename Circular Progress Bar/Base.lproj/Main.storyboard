@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Circular Progress Bar-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="VCCircularProgressBar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="VCCircularProgressBar" customModule="Circular_Progress_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" restorationIdentifier="CircularProgressBar" translatesAutoresizingMaskIntoConstraints="NO" id="V8e-l3-VcW" customClass="CircularProgressBar" customModule="Circular_Progress_Bar" customModuleProvider="target">
+                                <rect key="frame" x="56.5" y="202.5" width="262.5" height="262.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="angleEnd">
+                                        <real key="value" value="-42"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circularAngle">
+                                        <real key="value" value="-16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thp-J6-1gU">
+                                <rect key="frame" x="56" y="548" width="262.5" height="37.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Set Random Progress">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onProgressChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05w-fk-V1H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V8e-l3-VcW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5EO-JV-Qbt"/>
+                            <constraint firstItem="thp-J6-1gU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="9Y1-02-HMZ"/>
+                            <constraint firstItem="V8e-l3-VcW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="FTI-gO-aLj"/>
+                            <constraint firstItem="thp-J6-1gU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="Hlv-40-XzD"/>
+                            <constraint firstItem="thp-J6-1gU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NZg-So-Ir6"/>
+                            <constraint firstItem="thp-J6-1gU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1" id="SmV-4c-PSl"/>
+                            <constraint firstItem="V8e-l3-VcW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fHN-of-ruK"/>
+                            <constraint firstItem="V8e-l3-VcW" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="mCg-Hh-SKf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circularProgressBar" destination="V8e-l3-VcW" id="Kvb-I0-6na"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="208"/>
+        </scene>
+    </scenes>
+</document>

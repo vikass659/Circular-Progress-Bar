@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE539F41FDC3CAB00B4C624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE539F31FDC3CAB00B4C624 /* AppDelegate.swift */; };
+		BFE539F61FDC3CAB00B4C624 /* VCCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE539F51FDC3CAB00B4C624 /* VCCircularProgressBar.swift */; };
+		BFE539F91FDC3CAB00B4C624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE539F71FDC3CAB00B4C624 /* Main.storyboard */; };
+		BFE539FB1FDC3CAB00B4C624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE539FA1FDC3CAB00B4C624 /* Assets.xcassets */; };
+		BFE539FE1FDC3CAB00B4C624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE539FC1FDC3CAB00B4C624 /* LaunchScreen.storyboard */; };
+		BFE53A091FDC3CAC00B4C624 /* Circular_Progress_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE53A081FDC3CAC00B4C624 /* Circular_Progress_BarTests.swift */; };
+		BFE53A141FDC3CAC00B4C624 /* Circular_Progress_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE53A131FDC3CAC00B4C624 /* Circular_Progress_BarUITests.swift */; };
+		BFE53A221FDC3EB000B4C624 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE53A211FDC3EB000B4C624 /* CircularProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE53A051FDC3CAC00B4C624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE539E81FDC3CAB00B4C624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE539EF1FDC3CAB00B4C624;
+			remoteInfo = "Circular Progress Bar";
+		};
+		BFE53A101FDC3CAC00B4C624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE539E81FDC3CAB00B4C624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE539EF1FDC3CAB00B4C624;
+			remoteInfo = "Circular Progress Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE539F01FDC3CAB00B4C624 /* Circular Progress Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE539F31FDC3CAB00B4C624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE539F51FDC3CAB00B4C624 /* VCCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCircularProgressBar.swift; sourceTree = "<group>"; };
+		BFE539F81FDC3CAB00B4C624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE539FA1FDC3CAB00B4C624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE539FD1FDC3CAB00B4C624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE539FF1FDC3CAC00B4C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE53A041FDC3CAC00B4C624 /* Circular Progress BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circular Progress BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE53A081FDC3CAC00B4C624 /* Circular_Progress_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_Progress_BarTests.swift; sourceTree = "<group>"; };
+		BFE53A0A1FDC3CAC00B4C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE53A0F1FDC3CAC00B4C624 /* Circular Progress BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circular Progress BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE53A131FDC3CAC00B4C624 /* Circular_Progress_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_Progress_BarUITests.swift; sourceTree = "<group>"; };
+		BFE53A151FDC3CAC00B4C624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE53A211FDC3EB000B4C624 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE539ED1FDC3CAB00B4C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A011FDC3CAC00B4C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A0C1FDC3CAC00B4C624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE539E71FDC3CAB00B4C624 = {
+			isa = PBXGroup;
+			children = (
+				BFE539F21FDC3CAB00B4C624 /* Circular Progress Bar */,
+				BFE53A071FDC3CAC00B4C624 /* Circular Progress BarTests */,
+				BFE53A121FDC3CAC00B4C624 /* Circular Progress BarUITests */,
+				BFE539F11FDC3CAB00B4C624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE539F11FDC3CAB00B4C624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE539F01FDC3CAB00B4C624 /* Circular Progress Bar.app */,
+				BFE53A041FDC3CAC00B4C624 /* Circular Progress BarTests.xctest */,
+				BFE53A0F1FDC3CAC00B4C624 /* Circular Progress BarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE539F21FDC3CAB00B4C624 /* Circular Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				BFE539F31FDC3CAB00B4C624 /* AppDelegate.swift */,
+				BFE539F51FDC3CAB00B4C624 /* VCCircularProgressBar.swift */,
+				BFE53A211FDC3EB000B4C624 /* CircularProgressBar.swift */,
+				BFE539F71FDC3CAB00B4C624 /* Main.storyboard */,
+				BFE539FA1FDC3CAB00B4C624 /* Assets.xcassets */,
+				BFE539FC1FDC3CAB00B4C624 /* LaunchScreen.storyboard */,
+				BFE539FF1FDC3CAC00B4C624 /* Info.plist */,
+			);
+			path = "Circular Progress Bar";
+			sourceTree = "<group>";
+		};
+		BFE53A071FDC3CAC00B4C624 /* Circular Progress BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE53A081FDC3CAC00B4C624 /* Circular_Progress_BarTests.swift */,
+				BFE53A0A1FDC3CAC00B4C624 /* Info.plist */,
+			);
+			path = "Circular Progress BarTests";
+			sourceTree = "<group>";
+		};
+		BFE53A121FDC3CAC00B4C624 /* Circular Progress BarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE53A131FDC3CAC00B4C624 /* Circular_Progress_BarUITests.swift */,
+				BFE53A151FDC3CAC00B4C624 /* Info.plist */,
+			);
+			path = "Circular Progress BarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE539EF1FDC3CAB00B4C624 /* Circular Progress Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE53A181FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress Bar" */;
+			buildPhases = (
+				BFE539EC1FDC3CAB00B4C624 /* Sources */,
+				BFE539ED1FDC3CAB00B4C624 /* Frameworks */,
+				BFE539EE1FDC3CAB00B4C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circular Progress Bar";
+			productName = "Circular Progress Bar";
+			productReference = BFE539F01FDC3CAB00B4C624 /* Circular Progress Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE53A031FDC3CAC00B4C624 /* Circular Progress BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE53A1B1FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress BarTests" */;
+			buildPhases = (
+				BFE53A001FDC3CAC00B4C624 /* Sources */,
+				BFE53A011FDC3CAC00B4C624 /* Frameworks */,
+				BFE53A021FDC3CAC00B4C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE53A061FDC3CAC00B4C624 /* PBXTargetDependency */,
+			);
+			name = "Circular Progress BarTests";
+			productName = "Circular Progress BarTests";
+			productReference = BFE53A041FDC3CAC00B4C624 /* Circular Progress BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFE53A0E1FDC3CAC00B4C624 /* Circular Progress BarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE53A1E1FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress BarUITests" */;
+			buildPhases = (
+				BFE53A0B1FDC3CAC00B4C624 /* Sources */,
+				BFE53A0C1FDC3CAC00B4C624 /* Frameworks */,
+				BFE53A0D1FDC3CAC00B4C624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE53A111FDC3CAC00B4C624 /* PBXTargetDependency */,
+			);
+			name = "Circular Progress BarUITests";
+			productName = "Circular Progress BarUITests";
+			productReference = BFE53A0F1FDC3CAC00B4C624 /* Circular Progress BarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE539E81FDC3CAB00B4C624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VSN;
+				TargetAttributes = {
+					BFE539EF1FDC3CAB00B4C624 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BFE53A031FDC3CAC00B4C624 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFE539EF1FDC3CAB00B4C624;
+					};
+					BFE53A0E1FDC3CAC00B4C624 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFE539EF1FDC3CAB00B4C624;
+					};
+				};
+			};
+			buildConfigurationList = BFE539EB1FDC3CAB00B4C624 /* Build configuration list for PBXProject "Circular Progress Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE539E71FDC3CAB00B4C624;
+			productRefGroup = BFE539F11FDC3CAB00B4C624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE539EF1FDC3CAB00B4C624 /* Circular Progress Bar */,
+				BFE53A031FDC3CAC00B4C624 /* Circular Progress BarTests */,
+				BFE53A0E1FDC3CAC00B4C624 /* Circular Progress BarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE539EE1FDC3CAB00B4C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE539FE1FDC3CAB00B4C624 /* LaunchScreen.storyboard in Resources */,
+				BFE539FB1FDC3CAB00B4C624 /* Assets.xcassets in Resources */,
+				BFE539F91FDC3CAB00B4C624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A021FDC3CAC00B4C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A0D1FDC3CAC00B4C624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE539EC1FDC3CAB00B4C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE539F61FDC3CAB00B4C624 /* VCCircularProgressBar.swift in Sources */,
+				BFE53A221FDC3EB000B4C624 /* CircularProgressBar.swift in Sources */,
+				BFE539F41FDC3CAB00B4C624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A001FDC3CAC00B4C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE53A091FDC3CAC00B4C624 /* Circular_Progress_BarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE53A0B1FDC3CAC00B4C624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE53A141FDC3CAC00B4C624 /* Circular_Progress_BarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE53A061FDC3CAC00B4C624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE539EF1FDC3CAB00B4C624 /* Circular Progress Bar */;
+			targetProxy = BFE53A051FDC3CAC00B4C624 /* PBXContainerItemProxy */;
+		};
+		BFE53A111FDC3CAC00B4C624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE539EF1FDC3CAB00B4C624 /* Circular Progress Bar */;
+			targetProxy = BFE53A101FDC3CAC00B4C624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE539F71FDC3CAB00B4C624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE539F81FDC3CAB00B4C624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE539FC1FDC3CAB00B4C624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE539FD1FDC3CAB00B4C624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE53A161FDC3CAC00B4C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE53A171FDC3CAC00B4C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE53A191FDC3CAC00B4C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Circular Progress Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFE53A1A1FDC3CAC00B4C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Circular Progress Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFE53A1C1FDC3CAC00B4C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Circular Progress BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Progress Bar.app/Circular Progress Bar";
+			};
+			name = Debug;
+		};
+		BFE53A1D1FDC3CAC00B4C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Circular Progress BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Progress Bar.app/Circular Progress Bar";
+			};
+			name = Release;
+		};
+		BFE53A1F1FDC3CAC00B4C624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Circular Progress BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Circular Progress Bar";
+			};
+			name = Debug;
+		};
+		BFE53A201FDC3CAC00B4C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Circular Progress BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Circular-Progress-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Circular Progress Bar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE539EB1FDC3CAB00B4C624 /* Build configuration list for PBXProject "Circular Progress Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE53A161FDC3CAC00B4C624 /* Debug */,
+				BFE53A171FDC3CAC00B4C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE53A181FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE53A191FDC3CAC00B4C624 /* Debug */,
+				BFE53A1A1FDC3CAC00B4C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE53A1B1FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE53A1C1FDC3CAC00B4C624 /* Debug */,
+				BFE53A1D1FDC3CAC00B4C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE53A1E1FDC3CAC00B4C624 /* Build configuration list for PBXNativeTarget "Circular Progress BarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE53A1F1FDC3CAC00B4C624 /* Debug */,
+				BFE53A201FDC3CAC00B4C624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE539E81FDC3CAB00B4C624 /* Project object */;
+}
